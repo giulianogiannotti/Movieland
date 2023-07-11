@@ -15,7 +15,7 @@ class MovieSeeder extends Seeder
     {
         DB::table('movie')->insert([
             'title'=>'Jurassic World',
-            'description'=>'Una nueva especie de dinosaurio, creada por los científicos de forma artificial, es más inteligente y peligrosa que los animales conocidos y termina por atacar a los turistas que visitan el parque temático Jurassic World, situado en una isla frente a Costa Rica.',
+            'description'=>'Una nueva especie de dinosaurio.',
             'duration' => '126 min',
             'director' => 'Colin Trevorrow',
             'year' => 2015,
