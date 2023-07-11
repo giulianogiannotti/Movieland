@@ -3,42 +3,42 @@
 
         <div class="form-group">
             {{ Form::label('title') }}
-            {{ Form::text('title', $movies->title, ['class' => 'form-control' . ($errors->has('title') ? ' is-invalid' : ''), 'placeholder' => 'Title']) }}
+            {{ Form::text('title', $movie->title, ['class' => 'form-control' . ($errors->has('title') ? ' is-invalid' : ''), 'placeholder' => 'Title']) }}
             {!! $errors->first('title', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
             {{ Form::label('description') }}
-            {{ Form::text('description', $movies->description, ['class' => 'form-control' . ($errors->has('description') ? ' is-invalid' : ''), 'placeholder' => 'Description']) }}
+            {{ Form::text('description', $movie->description, ['class' => 'form-control' . ($errors->has('description') ? ' is-invalid' : ''), 'placeholder' => 'Description']) }}
             {!! $errors->first('description', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
             {{ Form::label('duration') }}
-            {{ Form::text('duration', $movies->duration, ['class' => 'form-control' . ($errors->has('duration') ? ' is-invalid' : ''), 'placeholder' => 'Duration']) }}
+            {{ Form::text('duration', $movie->duration, ['class' => 'form-control' . ($errors->has('duration') ? ' is-invalid' : ''), 'placeholder' => 'Duration']) }}
             {!! $errors->first('duration', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
             {{ Form::label('director') }}
-            {{ Form::text('director', $movies->director, ['class' => 'form-control' . ($errors->has('director') ? ' is-invalid' : ''), 'placeholder' => 'Director']) }}
+            {{ Form::text('director', $movie->director, ['class' => 'form-control' . ($errors->has('director') ? ' is-invalid' : ''), 'placeholder' => 'Director']) }}
             {!! $errors->first('director', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
             {{ Form::label('year') }}
-            {{ Form::text('year', $movies->year, ['class' => 'form-control' . ($errors->has('year') ? ' is-invalid' : ''), 'placeholder' => 'Year']) }}
+            {{ Form::text('year', $movie->year, ['class' => 'form-control' . ($errors->has('year') ? ' is-invalid' : ''), 'placeholder' => 'Year']) }}
             {!! $errors->first('year', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
             {{ Form::label('url') }}
-            {{ Form::text('url', $movies->url, ['class' => 'form-control' . ($errors->has('url') ? ' is-invalid' : ''), 'placeholder' => 'Url']) }}
+            {{ Form::text('url', $movie->url, ['class' => 'form-control' . ($errors->has('url') ? ' is-invalid' : ''), 'placeholder' => 'Url']) }}
             {!! $errors->first('url', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
             {{ Form::label('important') }}
-            {{ Form::text('important', $movies->important, ['class' => 'form-control' . ($errors->has('important') ? ' is-invalid' : ''), 'placeholder' => 'Important']) }}
+            {{ Form::text('important', $movie->important, ['class' => 'form-control' . ($errors->has('important') ? ' is-invalid' : ''), 'placeholder' => 'Important']) }}
             {!! $errors->first('important', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
             {{ Form::label('id_category') }}
-            {{ Form::text('id_category', $movies->id_category, ['class' => 'form-control' . ($errors->has('id_category') ? ' is-invalid' : ''), 'placeholder' => 'Id Category']) }}
+            {{ Form::text('id_category', $movie->id_category, ['class' => 'form-control' . ($errors->has('id_category') ? ' is-invalid' : ''), 'placeholder' => 'Id Category']) }}
             {!! $errors->first('id_category', '<div class="invalid-feedback">:message</div>') !!}
         </div>
 

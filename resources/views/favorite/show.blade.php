@@ -22,11 +22,11 @@
 
                         <div class="form-group">
                             <strong>Id Movie:</strong>
-                            {{ $favorites->id_movie }}
+                            {{ $favorite->id_movie }}
                         </div>
                         <div class="form-group">
                             <strong>Id User:</strong>
-                            {{ $favorites->id_user }}
+                            {{ $favorite->id_user }}
                         </div>
 
                     </div>

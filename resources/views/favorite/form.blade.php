@@ -3,12 +3,12 @@
 
         <div class="form-group">
             {{ Form::label('id_movie') }}
-            {{ Form::text('id_movie', $favorites->id_movie, ['class' => 'form-control' . ($errors->has('id_movie') ? ' is-invalid' : ''), 'placeholder' => 'Id Movie']) }}
+            {{ Form::text('id_movie', $favorite->id_movie, ['class' => 'form-control' . ($errors->has('id_movie') ? ' is-invalid' : ''), 'placeholder' => 'Id Movie']) }}
             {!! $errors->first('id_movie', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
             {{ Form::label('id_user') }}
-            {{ Form::text('id_user', $favorites->id_user, ['class' => 'form-control' . ($errors->has('id_user') ? ' is-invalid' : ''), 'placeholder' => 'Id User']) }}
+            {{ Form::text('id_user', $favorite->id_user, ['class' => 'form-control' . ($errors->has('id_user') ? ' is-invalid' : ''), 'placeholder' => 'Id User']) }}
             {!! $errors->first('id_user', '<div class="invalid-feedback">:message</div>') !!}
         </div>
 

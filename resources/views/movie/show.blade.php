@@ -22,35 +22,35 @@
 
                         <div class="form-group">
                             <strong>Title:</strong>
-                            {{ $movies->title }}
+                            {{ $movie->title }}
                         </div>
                         <div class="form-group">
                             <strong>Description:</strong>
-                            {{ $movies->description }}
+                            {{ $movie->description }}
                         </div>
                         <div class="form-group">
                             <strong>Duration:</strong>
-                            {{ $movies->duration }}
+                            {{ $movie->duration }}
                         </div>
                         <div class="form-group">
                             <strong>Director:</strong>
-                            {{ $movies->director }}
+                            {{ $movie->director }}
                         </div>
                         <div class="form-group">
                             <strong>Year:</strong>
-                            {{ $movies->year }}
+                            {{ $movie->year }}
                         </div>
                         <div class="form-group">
                             <strong>Url:</strong>
-                            {{ $movies->url }}
+                            {{ $movie->url }}
                         </div>
                         <div class="form-group">
                             <strong>Important:</strong>
-                            {{ $movies->important }}
+                            {{ $movie->important }}
                         </div>
                         <div class="form-group">
                             <strong>Id Category:</strong>
-                            {{ $movies->id_category }}
+                            {{ $movie->id_category }}
                         </div>
 
                     </div>
