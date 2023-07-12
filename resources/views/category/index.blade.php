@@ -36,8 +36,7 @@
                                     <tr>
 
 										<th>Name</th>
-
-                                        <th></th>
+                                        <th>Acciones</th>
                                     </tr>
                                 </thead>
                                 <tbody>

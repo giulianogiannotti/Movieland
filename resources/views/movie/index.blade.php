@@ -44,7 +44,7 @@
 										<th>Important</th>
 										<th>Id Category</th>
 
-                                        <th></th>
+                                        <th>Acciones</th>
                                     </tr>
                                 </thead>
                                 <tbody>

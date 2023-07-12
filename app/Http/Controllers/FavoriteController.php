@@ -18,7 +18,7 @@ class FavoriteController extends Controller
      */
     public function index()
     {
-        $favorite = Favorite::all();
+        $favorite = Favorite::orderBy('id','asc')->get();
 
         return view('favorite.index')->with('favorite',$favorite);
     }

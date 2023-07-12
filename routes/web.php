@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 
@@ -25,6 +25,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Auth::routes(['register'=>false]);
 
-Route::resource('category', CategoryController::class);
-Route::resource('movie', MovieController::class);
-Route::resource('favorite', FavoriteController::class);
+Route::resource('category', CategoryController::class)->middleware('auth');
+Route::resource('movie', MovieController::class)->middleware('auth');
+Route::resource('favorite', FavoriteController::class)->middleware('auth');

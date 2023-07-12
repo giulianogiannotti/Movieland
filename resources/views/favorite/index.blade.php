@@ -38,7 +38,7 @@
 										<th>Id Movie</th>
 										<th>Id User</th>
 
-                                        <th></th>
+                                        <th>Acciones</th>
                                     </tr>
                                 </thead>
                                 <tbody>
